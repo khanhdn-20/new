@@ -33,4 +33,4 @@ print(w)
 print(rep)
 
 c = tf.Variable([1.0, 2.0, 3.0])
-print(c.assign_add(2.0))
+print(c.assign_add([2.0,2.0,2.0]))
